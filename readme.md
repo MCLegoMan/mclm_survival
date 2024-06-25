@@ -1,6 +1,8 @@
 # Survival
 This mod forces the gamemode to be survival for in-20091223-2.
 
+Consider downloading from [Modrinth](https://modrinth.com/mod/mclm_survival).
+
 ## Dependencies  
 - [Quilt Loader](https://quiltmc.org/).  
   - You will need to use [OrnitheMC](https://ornithemc.net/) to use Quilt with Minecraft Indev.  
