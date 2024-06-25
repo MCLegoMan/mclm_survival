@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.mclegoman",
+    "id": "mclm_survival",
+    "version": "${version}",
+    "metadata": {
+      "name": "Survival",
+      "description": "Enables survival mode for Minecraft in-20091223.",
+      "contributors": {
+        "MCLegoMan": "Owner"
+      },
+      "license": [
+        "LGPL-3.0-or-later"
+      ],
+      "contact": {
+        "github": "https://github.com/MCLegoMan",
+        "email": "daniel@mclegoman.com"
+      },
+      "icon": "assets/mclm_survival/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": "*"
+      },
+      {
+        "id": "minecraft",
+        "versions": "0.31"
+      }
+    ]
+  },
+  "mixin": [
+    "mclm_survival.mixins.json"
+  ]
+}
